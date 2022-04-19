@@ -1,3 +1,51 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  margin-top: 20%;
+}
+
+.text-elements {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0.2;
+}
+
+#text-area {
+  height: 120px;
+  border: solid black 1px;
+  border-radius: 4px;
+}
+
+#text-area:active {
+    border: solid blue 1px;
+    border-radius: 4px;
+}
+
+#btnCount{
+  margin-top: 10px;
+  background-color: #30AADD;
+  color: white;
+  border: #30AADD 2px solid;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+  align-items: center;
+
+}
+
+#word-count-total {
+  color: #30AADD;
+}
+
+#counter {
+  font-size: 32px;
+  margin-right: 200px;
+}
